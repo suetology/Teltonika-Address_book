@@ -1,6 +1,6 @@
 CPPFLAGS = -I../lib
 LDFLAGS:= -L../lib -llist
-DEPS = $(widlcard *.h)
+DEPS = $(wildcard *.h)
 SOURCE = $(wildcard *.c)
 OBJ = $(SOURCE:.c=.o)
 
